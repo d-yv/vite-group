@@ -1,0 +1,43 @@
+.our-yachts {}
+
+.title {
+    font-weight: 500;
+        font-size: 48px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fbfbfb;
+}
+
+.container {}
+
+.our-yachts-list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.our-yachts-item {
+    border-radius: 24px;
+        width: 392px;
+        height: 508px;
+        background-color: #fbfbfb;
+}
+
+.our-yachts-img {
+    border-radius: 24px;
+}
+
+.our-yachts-container {}
+
+.our-yachts-subtitle {}
+
+.our-yachts-text {}
+
+.our-yachts-svg {}
+
+.our-yachts-description {}
+
+.our-yachts-text-description {}
+
+.our-yachts-text-span {}
