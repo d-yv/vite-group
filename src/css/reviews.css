@@ -16,7 +16,6 @@
   margin: 0 auto 25px;
 }
 .deskr {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
@@ -28,12 +27,14 @@
   width: 335px;
 }
 .reviews-box {
-  border-radius: 24px;
-  padding: 32px 8px;
   width: 335px;
   height: 282px;
-  background: #fbfbfb;
   margin: 0 auto;
+}
+.reviews-item {
+  padding: 32px 8px;
+  border-radius: 24px;
+  background: #fbfbfb;
 }
 .reviews-photo {
   margin: 0 auto 24px;
