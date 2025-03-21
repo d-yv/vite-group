@@ -1,7 +1,6 @@
-
-
 .header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
     background-color: #0d131a;
@@ -35,6 +34,9 @@
 }
 
 .header-nav-menu {
+    display: none;
+}
+.header-social {
     display: none;
 }
 
@@ -71,5 +73,36 @@
         text-align: center;
         color: #fbfbfb;
     }
+
+.header-social {
+    display: block;
+}
+
+.header-social-list {
+    display: flex;
+}
+
+.header-social-list-item {
+    width: 24px;
+    height: 24px;
+}
+
+.header-social-icon-link {
+    width: 100%;
+    height: 100%;
+    /* Всі іконки круглі */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Тільки перша іконка квадратна */
+
+.header-icon {
+    width: 100%;
+    height: 100%;
+    fill: #1b414b;
+}
 }
     
