@@ -4,9 +4,3 @@ body {
     color: #1b414b;
 }
 
-.header-hero-div {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 100%;
-}
