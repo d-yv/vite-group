@@ -1,16 +1,9 @@
 .hero {
-    position: relative;
+    display: flex;
     width: 100%;
     height: auto;
     padding: 198px 0 243px;
-    background-image:
-        image-set(url("/img/hero/yacht-image-phone1x.jpg") 1x,
-            url("/img/hero/yacht-image-phone@2x.jpg") 2x);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    margin: 0 auto;
+    margin: 200px auto 0;
 }
 
 
@@ -70,14 +63,8 @@
 @media screen and (min-width: 556px) and (max-width: 1280px) {
     .hero {
         min-width: 648px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
         max-width: 100%;
         margin: 0 auto;
-        background-image:
-            image-set(url("/img/hero/yacht-image-decktop1x.jpg") 1x,
-                url("/img/hero/yacht-image-decktop@2x.jpg") 2x);
     }
 
     .hero-title {
@@ -103,13 +90,6 @@
 
 @media screen and (min-width: 1280px) {
     .hero {
-        padding: 155px 0 180px;
-        background-image:
-            image-set(url("/img/hero/yacht-image-decktop1x.jpg") 1x,
-                url("/img/hero/yacht-image-decktop@2x.jpg") 2x);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
         max-width: 1440px;
         margin: 0 auto;
     }
